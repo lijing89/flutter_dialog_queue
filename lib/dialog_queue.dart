@@ -35,7 +35,7 @@ class DialogQueue {
 
   // 对话框状态
   bool _isShowing = false;
-  @protected
+  // @protected
   bool get isShowing => _isShowing;
   Completer? _currentCompleter;
 
